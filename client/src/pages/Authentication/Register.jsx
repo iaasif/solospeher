@@ -5,6 +5,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import bgImg from '../../assets/images/register.jpg'
 
 import logo from '../../assets/images/register.jpg'
+import { AuthContext } from '../../provider/AuthProvider';
 
 const Register = () => {
     const navigate = useNavigate()
